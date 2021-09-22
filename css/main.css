@@ -326,7 +326,6 @@ a {
 
 .page-header {
   background-color: #ffffff;
-  border-bottom: 1px solid #ececec;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -336,6 +335,10 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.head {
+  border-bottom: 1px solid #ececec;
 }
 
 .nav__container {
@@ -1154,7 +1157,7 @@ a {
 
 .page-footer__logoweb {
   color: #2196f3;
-  font-family: var(--logo-font);
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   /* letter-spacing: 0.03em; */
@@ -1176,6 +1179,10 @@ a {
 
 .page-footer__logostudio {
   color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  /* letter-spacing: 0.03em; */
   font-size: 26px;
   text-decoration: none;
 }
@@ -1270,7 +1277,6 @@ a {
   /* or 171% */
   text-decoration: none;
   font-style: normal;
-  display: block;
 }
 
 .address__email {
@@ -1280,13 +1286,16 @@ a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  display: block;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address__email:hover, .address__email:focus {
   color: #2196f3;
+}
+
+.address__element {
+  display: block;
 }
 
 .address__element:not(:last-child) {
@@ -1300,7 +1309,6 @@ a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  display: block;
   margin: 0;
   padding: 0;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
